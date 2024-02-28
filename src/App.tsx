@@ -5,6 +5,10 @@ import { NewNote } from './pages/NewNote';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import { useMemo } from 'react';
 import {v4 as uuidV4} from 'uuid'
+import { NoteList } from './components/NoteList/NoteList';
+import { NoteLayout } from './hooks/NoteLayout';
+import { Note } from './pages/Note';
+import { EditNote } from './components/EditNote';
 
 export type Note = {
   id: string
